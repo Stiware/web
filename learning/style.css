@@ -1,3 +1,18 @@
-h1{
-    color: green;
+p{
+    color:violet;
+    font: size 33px;
+}
+#title{
+    color:green;
+    font: size 40px;
+}
+.links{
+    color:brown;
+    font: size 20px;
+}
+body{padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
 }
