@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Test my knowledges</title>
+</head>
+<body>
+    
+    <nav class="div-padre"> 
+        <button class="nav-btn" onclick="accion()">menu</button>
+        <a href="#" class="nav-enlace vanish">Home</a>
+        <a href="#" class="nav-enlace vanish">About us</a>
+        <a href="#" class="nav-enlace vanish">Services</a>
+        <a href="#" class="nav-enlace vanish">Contact</a>
+    </nav>
+<script>    
+    function accion(){
+        var enlace= document.getElementsByClassName('nav-enlace');
+        for(var i= 0; i<enlace.length; i++){
+            enlace[i].classList.toggle('vanish');
+        }
+    }
+     
+</script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+nav{
+    background-color: purple;
+}
+.nav-enlace{  
+    color: #E8E8CC;
+    background-color: salmon;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.nav-enlace:hover{
+    background-color:aqua;
+    color: black;
+}
+.div-padre{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-btn{
+    background-color:salmon;
+    color: white;
+    padding: 10px 0px;
+    border: 2px solid white;
+    display: none;
+}
+
+@media (max-width:600px){
+    .div-padre{
+        background-color: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0px;
+    }
+
+    .nav-btn{
+        display: inline-block;
+    }
+    .vanish{
+        display: none;
+    }
+    
+}
